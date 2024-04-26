@@ -1,0 +1,24 @@
+.announcementBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem 10rem;
+  gap: 5rem;
+  font-size: 14px;
+}
+
+.announcementBar_text {
+  justify-content: center;
+  color: white;
+}
+.bold-underline {
+  margin-left: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.announcementBar_dropdown_select {
+  background-color: transparent;
+  border: none;
+  color: white;
+}

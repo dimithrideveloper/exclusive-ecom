@@ -1,0 +1,54 @@
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: black;
+  padding: 5rem 10rem;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.brand_name {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer_title {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.footer_text {
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+}
+.footer_input {
+  border: solid white 1.5px;
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+.footer_text_variant {
+  font-size: 10px;
+  font-weight: 200;
+  color: white;
+}
+.footer_downloads_container {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer_mobile_downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer_socials {
+  display: flex;
+  gap: 1rem;
+}

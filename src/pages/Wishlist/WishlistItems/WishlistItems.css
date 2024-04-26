@@ -1,0 +1,29 @@
+.wishlist_items_container {
+  margin: 2rem 0;
+}
+.wishlist_items {
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.wishlist_items_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wishlist_items_title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.outlined_cta {
+  background-color: transparent;
+  color: black;
+  border: rgba(0, 0, 0, 0.336) solid 0.5px;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}

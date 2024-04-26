@@ -1,0 +1,61 @@
+.discount_banner_layout {
+  padding: 2rem 10rem;
+}
+.discount_banner_container {
+  background-color: black;
+}
+.discount_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+.discount_banner_category {
+  font-size: 16px;
+  color: #00ff66;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.discount_banner_title {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+.discount_banner_countdown {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.countdown_text {
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+
+  height: 70px;
+  width: 70px;
+  text-transform: capitalize;
+}
+.countdown_time {
+  font-size: 16px;
+  font-weight: bold;
+}
+.countdown_time_placeholder {
+  font-size: 11px;
+}
+.buy_now {
+  background-color: #00ff66;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+.discount_banner_img {
+  width: 480px;
+  height: auto;
+}

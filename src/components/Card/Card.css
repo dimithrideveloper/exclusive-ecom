@@ -1,0 +1,17 @@
+.benefit_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.benefit_card_title {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.benefit_card_text {
+  font-size: 14px;
+  font-weight: 300;
+}

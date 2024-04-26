@@ -1,0 +1,16 @@
+.carousel_img {
+  width: 300px;
+  height: auto;
+}
+.employee_name {
+  font-weight: 600;
+  font-size: 28px;
+}
+.employee_designation {
+  font-weight: 400;
+  font-size: 16px;
+}
+.socals_icon {
+  background-color: black;
+  margin-top: 0.5rem;
+}

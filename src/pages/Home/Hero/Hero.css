@@ -1,0 +1,6 @@
+.hero_layout {
+  display: flex;
+  padding: 2rem 10rem;
+  align-items: center;
+  justify-content: space-between;
+}

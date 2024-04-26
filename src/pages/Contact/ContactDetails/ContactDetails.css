@@ -1,0 +1,53 @@
+.contact_details_container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.contact_details {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 30%;
+  padding: 2rem;
+}
+.contact_details_title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.contact_details_heading {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.contact_details_text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+.contact_details_divider {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.384);
+  margin-bottom: 1.5rem;
+}
+.contact_form {
+  width: 100%;
+  padding: 2rem;
+}
+.contact_inputs {
+  display: flex;
+}
+.contact_form_field {
+  background-color: rgba(0, 0, 0, 0.116);
+  border: none;
+  padding: 1rem 2.5rem;
+  margin: 0.5rem;
+  width: 100%;
+}
+.contact_form_button {
+  display: flex;
+  justify-content: end;
+  margin-right: 0.5rem;
+}

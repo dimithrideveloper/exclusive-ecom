@@ -1,0 +1,54 @@
+.signup_container {
+  display: flex;
+  margin: 5rem 0;
+  align-items: center;
+}
+.form_img {
+  width: 50%;
+}
+.signup_form {
+  width: 100%;
+  padding: 0 10rem;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.google_cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: black;
+  border: black solid 1px;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.signup_field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px rgba(0, 0, 0, 0.199) solid;
+}
+.form_heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+.form_description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.form_other_text {
+  color: rgba(0, 0, 0, 0.568);
+  text-align: center;
+}
+.login_link {
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 0.5rem;
+  font-weight: 500;
+}

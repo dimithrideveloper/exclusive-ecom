@@ -1,0 +1,36 @@
+.main_navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem 0.5rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.192);
+}
+.navbar_nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar_nav ul li {
+  padding: 0 1rem;
+  font-size: 16px;
+}
+.navbar_link {
+  text-decoration: none;
+}
+.search {
+  background-color: #eff0f6;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 15rem;
+  max-width: 15rem;
+}
+.search_icon {
+  position: absolute;
+  right: 22rem;
+}
+
+.navbar_icon {
+  padding: 0 0.5rem;
+}

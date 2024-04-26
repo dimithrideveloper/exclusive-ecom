@@ -1,0 +1,20 @@
+.second_navbar_nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 20%;
+  max-width: 30%;
+}
+.second_navbar_nav ul {
+  list-style-type: none;
+}
+.second_navbar_link {
+  text-decoration: none;
+}
+.second_navbar_nav li {
+  padding: 0.5rem 0;
+  font-size: 16px;
+}
+.second_navbar_nav li :hover {
+  color: #0c0c0c52;
+}

@@ -1,0 +1,44 @@
+.categories_layout {
+  padding: 5rem 10rem;
+}
+.section_title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section_style {
+  background-color: #db4444;
+  width: 15px;
+  height: 35px;
+  border-radius: 2px;
+}
+.section_heading {
+  color: #db4444;
+  font-size: 16px;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.promo_heading {
+  font-size: 36px;
+  font-weight: 600;
+}
+.categories_container {
+  display: flex;
+  justify-content: start;
+  margin-top: 2rem;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.categories_container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+.categories_container {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}

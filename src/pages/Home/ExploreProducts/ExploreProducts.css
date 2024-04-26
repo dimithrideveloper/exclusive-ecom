@@ -1,0 +1,47 @@
+.explore_products_layout {
+  padding: 2rem 10rem;
+}
+.section_title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section_style {
+  background-color: #db4444;
+  width: 15px;
+  height: 35px;
+  border-radius: 2px;
+}
+.section_heading {
+  color: #db4444;
+  font-size: 16px;
+}
+
+.bestselling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.bestselling_heading {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.explore_products_container {
+  display: flex;
+  overflow-x: hidden;
+  justify-self: start;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.primary-cta {
+  background-color: #db4444;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}

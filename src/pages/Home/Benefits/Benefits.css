@@ -1,0 +1,7 @@
+.benefits_container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}

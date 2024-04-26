@@ -1,0 +1,18 @@
+.breadcrumbs_container {
+  margin: 3rem 0;
+}
+.breadcrumbs_container ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+.breadcrumb_link_prev {
+  text-decoration: none;
+}
+.breadcrumb_link_prev,
+.breadcrumb_divider {
+  color: rgba(0, 0, 0, 0.384);
+}
+.breadcrumb_link_current {
+  text-decoration: none;
+}
