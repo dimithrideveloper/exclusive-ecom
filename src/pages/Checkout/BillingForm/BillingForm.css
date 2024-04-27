@@ -1,0 +1,74 @@
+.page_heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+.billing_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.billing_label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.548);
+  margin-top: 1.5rem;
+}
+.billing_input {
+  background-color: rgba(192, 192, 192, 0.192);
+  border: none;
+  padding: 0.5rem;
+}
+.billing_save_detials {
+  margin-top: 1rem;
+}
+.billing_checkbox_label {
+  font-size: 16px;
+  font-weight: 400;
+}
+.billing_checkbox {
+  margin-right: 0.5rem;
+}
+.order_summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.order_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+.order_item_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.order_item_img {
+  width: 60px;
+  height: 60px;
+}
+.order_item_name {
+  font-size: 16px;
+  font-weight: 400;
+}
+.coupon_form {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.coupon_input {
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.order_summary_button {
+  margin-top: 0.5rem;
+}
